@@ -15,6 +15,9 @@
 		9316A773205A1A7B00A6CCB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9316A772205A1A7B00A6CCB2 /* main.m */; };
 		9316A77D205A1A7B00A6CCB2 /* GFCardTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9316A77C205A1A7B00A6CCB2 /* GFCardTextTests.m */; };
 		9316A788205A1A7B00A6CCB2 /* GFCardTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9316A787205A1A7B00A6CCB2 /* GFCardTextUITests.m */; };
+		9316A797205A1D8A00A6CCB2 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 9316A796205A1D8A00A6CCB2 /* tessdata */; };
+		9316A79A205A1DD200A6CCB2 /* GFCardManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9316A799205A1DD200A6CCB2 /* GFCardManager.mm */; };
+		EB425D03EDCD501AE1FB9571 /* libPods-GFCardText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE295553CBE37692C9809FB /* libPods-GFCardText.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		911CD5C2D20FDD2F7D98830F /* Pods-GFCardText.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFCardText.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GFCardText/Pods-GFCardText.debug.xcconfig"; sourceTree = "<group>"; };
 		9316A760205A1A7B00A6CCB2 /* GFCardText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GFCardText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9316A763205A1A7B00A6CCB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9316A764205A1A7B00A6CCB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +55,17 @@
 		9316A783205A1A7B00A6CCB2 /* GFCardTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GFCardTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9316A787205A1A7B00A6CCB2 /* GFCardTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFCardTextUITests.m; sourceTree = "<group>"; };
 		9316A789205A1A7B00A6CCB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9316A796205A1D8A00A6CCB2 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		9316A798205A1DD200A6CCB2 /* GFCardManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFCardManager.h; sourceTree = "<group>"; };
+		9316A799205A1DD200A6CCB2 /* GFCardManager.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GFCardManager.mm; sourceTree = "<group>"; };
+		9316A79B205A226900A6CCB2 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		9316A79D205A227300A6CCB2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9316A79F205A228700A6CCB2 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		9316A7A1205A22D200A6CCB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9316A7A3205A22E700A6CCB2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9316A7A5205A22FF00A6CCB2 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		E3CBAE25F6996693C263B510 /* Pods-GFCardText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GFCardText.release.xcconfig"; path = "Pods/Target Support Files/Pods-GFCardText/Pods-GFCardText.release.xcconfig"; sourceTree = "<group>"; };
+		FDE295553CBE37692C9809FB /* libPods-GFCardText.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GFCardText.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB425D03EDCD501AE1FB9571 /* libPods-GFCardText.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +94,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AD464649B68F38A6C11F7C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				911CD5C2D20FDD2F7D98830F /* Pods-GFCardText.debug.xcconfig */,
+				E3CBAE25F6996693C263B510 /* Pods-GFCardText.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1ADF87BCCAF9C2CEF321D855 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9316A7A5205A22FF00A6CCB2 /* Accelerate.framework */,
+				9316A7A3205A22E700A6CCB2 /* QuartzCore.framework */,
+				9316A7A1205A22D200A6CCB2 /* CoreGraphics.framework */,
+				9316A79F205A228700A6CCB2 /* CoreImage.framework */,
+				9316A79D205A227300A6CCB2 /* AVFoundation.framework */,
+				9316A79B205A226900A6CCB2 /* libc++.tbd */,
+				FDE295553CBE37692C9809FB /* libPods-GFCardText.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9316A757205A1A7A00A6CCB2 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +124,8 @@
 				9316A77B205A1A7B00A6CCB2 /* GFCardTextTests */,
 				9316A786205A1A7B00A6CCB2 /* GFCardTextUITests */,
 				9316A761205A1A7B00A6CCB2 /* Products */,
+				0AD464649B68F38A6C11F7C6 /* Pods */,
+				1ADF87BCCAF9C2CEF321D855 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +142,7 @@
 		9316A762205A1A7B00A6CCB2 /* GFCardText */ = {
 			isa = PBXGroup;
 			children = (
+				9316A795205A1D6200A6CCB2 /* GFCardManager */,
 				9316A763205A1A7B00A6CCB2 /* AppDelegate.h */,
 				9316A764205A1A7B00A6CCB2 /* AppDelegate.m */,
 				9316A766205A1A7B00A6CCB2 /* ViewController.h */,
@@ -132,6 +174,16 @@
 			path = GFCardTextUITests;
 			sourceTree = "<group>";
 		};
+		9316A795205A1D6200A6CCB2 /* GFCardManager */ = {
+			isa = PBXGroup;
+			children = (
+				9316A796205A1D8A00A6CCB2 /* tessdata */,
+				9316A798205A1DD200A6CCB2 /* GFCardManager.h */,
+				9316A799205A1DD200A6CCB2 /* GFCardManager.mm */,
+			);
+			path = GFCardManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9316A78C205A1A7B00A6CCB2 /* Build configuration list for PBXNativeTarget "GFCardText" */;
 			buildPhases = (
+				AB9D9C3B192CE78F4464666E /* [CP] Check Pods Manifest.lock */,
 				9316A75C205A1A7B00A6CCB2 /* Sources */,
 				9316A75D205A1A7B00A6CCB2 /* Frameworks */,
 				9316A75E205A1A7B00A6CCB2 /* Resources */,
+				B47C4CF0DDCE213A96AC51DF /* [CP] Embed Pods Frameworks */,
+				83B1342638AAE551AB5A98ED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9316A770205A1A7B00A6CCB2 /* LaunchScreen.storyboard in Resources */,
+				9316A797205A1D8A00A6CCB2 /* tessdata in Resources */,
 				9316A76D205A1A7B00A6CCB2 /* Assets.xcassets in Resources */,
 				9316A76B205A1A7B00A6CCB2 /* Main.storyboard in Resources */,
 			);
@@ -260,11 +316,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		83B1342638AAE551AB5A98ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GFCardText/Pods-GFCardText-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB9D9C3B192CE78F4464666E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GFCardText-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B47C4CF0DDCE213A96AC51DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GFCardText/Pods-GFCardText-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9316A75C205A1A7B00A6CCB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9316A79A205A1DD200A6CCB2 /* GFCardManager.mm in Sources */,
 				9316A768205A1A7B00A6CCB2 /* ViewController.m in Sources */,
 				9316A773205A1A7B00A6CCB2 /* main.m in Sources */,
 				9316A765205A1A7B00A6CCB2 /* AppDelegate.m in Sources */,
@@ -428,10 +536,12 @@
 		};
 		9316A78D205A1A7B00A6CCB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 911CD5C2D20FDD2F7D98830F /* Pods-GFCardText.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6QP59Y68SQ;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = GFCardText/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunxingzhe.NineOneParkingSpace.GFCardText;
@@ -442,10 +552,12 @@
 		};
 		9316A78E205A1A7B00A6CCB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3CBAE25F6996693C263B510 /* Pods-GFCardText.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6QP59Y68SQ;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = GFCardText/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunxingzhe.NineOneParkingSpace.GFCardText;
