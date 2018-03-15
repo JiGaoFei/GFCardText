@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9316A765205A1A7B00A6CCB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9316A764205A1A7B00A6CCB2 /* AppDelegate.m */; };
+		9316A768205A1A7B00A6CCB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9316A767205A1A7B00A6CCB2 /* ViewController.m */; };
+		9316A76B205A1A7B00A6CCB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9316A769205A1A7B00A6CCB2 /* Main.storyboard */; };
+		9316A76D205A1A7B00A6CCB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9316A76C205A1A7B00A6CCB2 /* Assets.xcassets */; };
+		9316A770205A1A7B00A6CCB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9316A76E205A1A7B00A6CCB2 /* LaunchScreen.storyboard */; };
+		9316A773205A1A7B00A6CCB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9316A772205A1A7B00A6CCB2 /* main.m */; };
+		9316A77D205A1A7B00A6CCB2 /* GFCardTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9316A77C205A1A7B00A6CCB2 /* GFCardTextTests.m */; };
+		9316A788205A1A7B00A6CCB2 /* GFCardTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9316A787205A1A7B00A6CCB2 /* GFCardTextUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9316A779205A1A7B00A6CCB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9316A758205A1A7A00A6CCB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9316A75F205A1A7B00A6CCB2;
+			remoteInfo = GFCardText;
+		};
+		9316A784205A1A7B00A6CCB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9316A758205A1A7A00A6CCB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9316A75F205A1A7B00A6CCB2;
+			remoteInfo = GFCardText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9316A760205A1A7B00A6CCB2 /* GFCardText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GFCardText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9316A763205A1A7B00A6CCB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9316A764205A1A7B00A6CCB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9316A766205A1A7B00A6CCB2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9316A767205A1A7B00A6CCB2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9316A76A205A1A7B00A6CCB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9316A76C205A1A7B00A6CCB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9316A76F205A1A7B00A6CCB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9316A771205A1A7B00A6CCB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9316A772205A1A7B00A6CCB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9316A778205A1A7B00A6CCB2 /* GFCardTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GFCardTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9316A77C205A1A7B00A6CCB2 /* GFCardTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFCardTextTests.m; sourceTree = "<group>"; };
+		9316A77E205A1A7B00A6CCB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9316A783205A1A7B00A6CCB2 /* GFCardTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GFCardTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9316A787205A1A7B00A6CCB2 /* GFCardTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFCardTextUITests.m; sourceTree = "<group>"; };
+		9316A789205A1A7B00A6CCB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9316A75D205A1A7B00A6CCB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9316A775205A1A7B00A6CCB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9316A780205A1A7B00A6CCB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9316A757205A1A7A00A6CCB2 = {
+			isa = PBXGroup;
+			children = (
+				9316A762205A1A7B00A6CCB2 /* GFCardText */,
+				9316A77B205A1A7B00A6CCB2 /* GFCardTextTests */,
+				9316A786205A1A7B00A6CCB2 /* GFCardTextUITests */,
+				9316A761205A1A7B00A6CCB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9316A761205A1A7B00A6CCB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9316A760205A1A7B00A6CCB2 /* GFCardText.app */,
+				9316A778205A1A7B00A6CCB2 /* GFCardTextTests.xctest */,
+				9316A783205A1A7B00A6CCB2 /* GFCardTextUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9316A762205A1A7B00A6CCB2 /* GFCardText */ = {
+			isa = PBXGroup;
+			children = (
+				9316A763205A1A7B00A6CCB2 /* AppDelegate.h */,
+				9316A764205A1A7B00A6CCB2 /* AppDelegate.m */,
+				9316A766205A1A7B00A6CCB2 /* ViewController.h */,
+				9316A767205A1A7B00A6CCB2 /* ViewController.m */,
+				9316A769205A1A7B00A6CCB2 /* Main.storyboard */,
+				9316A76C205A1A7B00A6CCB2 /* Assets.xcassets */,
+				9316A76E205A1A7B00A6CCB2 /* LaunchScreen.storyboard */,
+				9316A771205A1A7B00A6CCB2 /* Info.plist */,
+				9316A772205A1A7B00A6CCB2 /* main.m */,
+			);
+			path = GFCardText;
+			sourceTree = "<group>";
+		};
+		9316A77B205A1A7B00A6CCB2 /* GFCardTextTests */ = {
+			isa = PBXGroup;
+			children = (
+				9316A77C205A1A7B00A6CCB2 /* GFCardTextTests.m */,
+				9316A77E205A1A7B00A6CCB2 /* Info.plist */,
+			);
+			path = GFCardTextTests;
+			sourceTree = "<group>";
+		};
+		9316A786205A1A7B00A6CCB2 /* GFCardTextUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9316A787205A1A7B00A6CCB2 /* GFCardTextUITests.m */,
+				9316A789205A1A7B00A6CCB2 /* Info.plist */,
+			);
+			path = GFCardTextUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9316A75F205A1A7B00A6CCB2 /* GFCardText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9316A78C205A1A7B00A6CCB2 /* Build configuration list for PBXNativeTarget "GFCardText" */;
+			buildPhases = (
+				9316A75C205A1A7B00A6CCB2 /* Sources */,
+				9316A75D205A1A7B00A6CCB2 /* Frameworks */,
+				9316A75E205A1A7B00A6CCB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GFCardText;
+			productName = GFCardText;
+			productReference = 9316A760205A1A7B00A6CCB2 /* GFCardText.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9316A777205A1A7B00A6CCB2 /* GFCardTextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9316A78F205A1A7B00A6CCB2 /* Build configuration list for PBXNativeTarget "GFCardTextTests" */;
+			buildPhases = (
+				9316A774205A1A7B00A6CCB2 /* Sources */,
+				9316A775205A1A7B00A6CCB2 /* Frameworks */,
+				9316A776205A1A7B00A6CCB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9316A77A205A1A7B00A6CCB2 /* PBXTargetDependency */,
+			);
+			name = GFCardTextTests;
+			productName = GFCardTextTests;
+			productReference = 9316A778205A1A7B00A6CCB2 /* GFCardTextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9316A782205A1A7B00A6CCB2 /* GFCardTextUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9316A792205A1A7B00A6CCB2 /* Build configuration list for PBXNativeTarget "GFCardTextUITests" */;
+			buildPhases = (
+				9316A77F205A1A7B00A6CCB2 /* Sources */,
+				9316A780205A1A7B00A6CCB2 /* Frameworks */,
+				9316A781205A1A7B00A6CCB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9316A785205A1A7B00A6CCB2 /* PBXTargetDependency */,
+			);
+			name = GFCardTextUITests;
+			productName = GFCardTextUITests;
+			productReference = 9316A783205A1A7B00A6CCB2 /* GFCardTextUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9316A758205A1A7A00A6CCB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "孙行者网络";
+				TargetAttributes = {
+					9316A75F205A1A7B00A6CCB2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					9316A777205A1A7B00A6CCB2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9316A75F205A1A7B00A6CCB2;
+					};
+					9316A782205A1A7B00A6CCB2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9316A75F205A1A7B00A6CCB2;
+					};
+				};
+			};
+			buildConfigurationList = 9316A75B205A1A7A00A6CCB2 /* Build configuration list for PBXProject "GFCardText" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9316A757205A1A7A00A6CCB2;
+			productRefGroup = 9316A761205A1A7B00A6CCB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9316A75F205A1A7B00A6CCB2 /* GFCardText */,
+				9316A777205A1A7B00A6CCB2 /* GFCardTextTests */,
+				9316A782205A1A7B00A6CCB2 /* GFCardTextUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9316A75E205A1A7B00A6CCB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9316A770205A1A7B00A6CCB2 /* LaunchScreen.storyboard in Resources */,
+				9316A76D205A1A7B00A6CCB2 /* Assets.xcassets in Resources */,
+				9316A76B205A1A7B00A6CCB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9316A776205A1A7B00A6CCB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9316A781205A1A7B00A6CCB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9316A75C205A1A7B00A6CCB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9316A768205A1A7B00A6CCB2 /* ViewController.m in Sources */,
+				9316A773205A1A7B00A6CCB2 /* main.m in Sources */,
+				9316A765205A1A7B00A6CCB2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9316A774205A1A7B00A6CCB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9316A77D205A1A7B00A6CCB2 /* GFCardTextTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9316A77F205A1A7B00A6CCB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9316A788205A1A7B00A6CCB2 /* GFCardTextUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9316A77A205A1A7B00A6CCB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9316A75F205A1A7B00A6CCB2 /* GFCardText */;
+			targetProxy = 9316A779205A1A7B00A6CCB2 /* PBXContainerItemProxy */;
+		};
+		9316A785205A1A7B00A6CCB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9316A75F205A1A7B00A6CCB2 /* GFCardText */;
+			targetProxy = 9316A784205A1A7B00A6CCB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9316A769205A1A7B00A6CCB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9316A76A205A1A7B00A6CCB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9316A76E205A1A7B00A6CCB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9316A76F205A1A7B00A6CCB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9316A78A205A1A7B00A6CCB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9316A78B205A1A7B00A6CCB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9316A78D205A1A7B00A6CCB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QP59Y68SQ;
+				INFOPLIST_FILE = GFCardText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunxingzhe.NineOneParkingSpace.GFCardText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9316A78E205A1A7B00A6CCB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QP59Y68SQ;
+				INFOPLIST_FILE = GFCardText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunxingzhe.NineOneParkingSpace.GFCardText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9316A790205A1A7B00A6CCB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QP59Y68SQ;
+				INFOPLIST_FILE = GFCardTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunxingzhe.NineOneParkingSpace.GFCardTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GFCardText.app/GFCardText";
+			};
+			name = Debug;
+		};
+		9316A791205A1A7B00A6CCB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QP59Y68SQ;
+				INFOPLIST_FILE = GFCardTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunxingzhe.NineOneParkingSpace.GFCardTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GFCardText.app/GFCardText";
+			};
+			name = Release;
+		};
+		9316A793205A1A7B00A6CCB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QP59Y68SQ;
+				INFOPLIST_FILE = GFCardTextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunxingzhe.NineOneParkingSpace.GFCardTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GFCardText;
+			};
+			name = Debug;
+		};
+		9316A794205A1A7B00A6CCB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QP59Y68SQ;
+				INFOPLIST_FILE = GFCardTextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunxingzhe.NineOneParkingSpace.GFCardTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GFCardText;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9316A75B205A1A7A00A6CCB2 /* Build configuration list for PBXProject "GFCardText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9316A78A205A1A7B00A6CCB2 /* Debug */,
+				9316A78B205A1A7B00A6CCB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9316A78C205A1A7B00A6CCB2 /* Build configuration list for PBXNativeTarget "GFCardText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9316A78D205A1A7B00A6CCB2 /* Debug */,
+				9316A78E205A1A7B00A6CCB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9316A78F205A1A7B00A6CCB2 /* Build configuration list for PBXNativeTarget "GFCardTextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9316A790205A1A7B00A6CCB2 /* Debug */,
+				9316A791205A1A7B00A6CCB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9316A792205A1A7B00A6CCB2 /* Build configuration list for PBXNativeTarget "GFCardTextUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9316A793205A1A7B00A6CCB2 /* Debug */,
+				9316A794205A1A7B00A6CCB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9316A758205A1A7A00A6CCB2 /* Project object */;
+}
