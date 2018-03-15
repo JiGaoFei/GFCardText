@@ -1,0 +1,2 @@
+# GFCardText
+OCR识别
